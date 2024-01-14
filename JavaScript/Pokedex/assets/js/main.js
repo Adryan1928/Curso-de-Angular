@@ -25,7 +25,6 @@ function loadPokemonItems(offset, limit) {
     })   
 }
 
-
 loadPokemonItems(offset, limit)
 
 loadMoreButton.addEventListener('click', () =>{

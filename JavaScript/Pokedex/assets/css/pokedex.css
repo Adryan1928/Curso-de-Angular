@@ -109,60 +109,6 @@
     background-color: #f9aec7;
 }
 
-/* Color */
-
-.normal{
-    color: #a6a877;
-}
-.grass{
-    color: #77c850;
-}
-.fire{
-    color: #ee7f30;
-}
-.water{
-    color: #678fee;
-}
-.electric{
-    color: #f7cf2e;
-}
-.ice{
-    color: #98d5d7;
-}
-.ground{
-    color: #dfbf69;
-}
-.flying{
-    color: #a98ff0;
-}
-.poison{
-    color: #a040a0;
-}
-.fighting{
-    color: #bf3029;
-}
-.psychic{
-    color: #f65687;
-}
-.dark{
-    color: #725847;
-}
-.rock{
-    color: #b8a137;
-}
-.bug{
-    color: #a8b720;
-}
-.ghost{
-    color: #6e5896;
-}
-.steel{
-    color: #b9b7cf;
-}
-.fairy{
-    color: #f9aec7;
-}
-
 .pagination{
     display: flex;
     flex-direction: row;

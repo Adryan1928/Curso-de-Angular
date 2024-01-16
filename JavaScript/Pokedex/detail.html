@@ -10,31 +10,31 @@
 </head>
 <body>
     <header id="header">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
-        </svg>
+        <div onclick="location.href = './index.html'">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+            </svg>
+        </div>
         <div class="linha between">
             <div>
-                <h1>bulba</h1>
+                <h1></h1>
                 <div id="types" class="linha types">
-                    <p>asdas</p>
-                    <p>adadasds</p>
                 </div>
             </div>
-            <p>#001</p>
+            <p id="number">#001</p>
         </div>
         <div id="img">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="">
+            <img src="" alt="">
         </div>
     </header>
     <main>
         <h2>Informações</h2>
         <div>
             <h3>Tipos</h3>
-            <div class="types-info">
-                <div class="linha types"><span class="opacity">Principal</span><span>Grama</span></div>
+            <div class="types-info" id="types-info">
             </div>
         </div>
     </main>
+    <script src="assets/js/detail.js"></script>
 </body>
 </html>

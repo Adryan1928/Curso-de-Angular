@@ -1,5 +1,4 @@
 header {
-    background-color: green;
     max-width: 992px;
     margin:auto;
     border-radius: 1rem;
@@ -29,8 +28,20 @@ main {
 }
 
 .types p{
-    padding: .5rem;
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    border-radius: 1rem;
     filter: brightness(1.1);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.types-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
 }
 
 .linha {
@@ -99,4 +110,60 @@ main {
 }
 .fairy{
     background-color: #f9aec7;
+}
+
+
+
+/* Color */
+
+.color-normal{
+    color: #a6a877;
+}
+.color-grass{
+    color: #77c850;
+}
+.color-fire{
+    color: #ee7f30;
+}
+.color-water{
+    color: #678fee;
+}
+.color-electric{
+    color: #f7cf2e;
+}
+.color-ice{
+    color: #98d5d7;
+}
+.color-ground{
+    color: #dfbf69;
+}
+.color-flying{
+    color: #a98ff0;
+}
+.color-poison{
+    color: #a040a0;
+}
+.color-fighting{
+    color: #bf3029;
+}
+.color-psychic{
+    color: #f65687;
+}
+.color-dark{
+    color: #725847;
+}
+.color-rock{
+    color: #b8a137;
+}
+.color-bug{
+    color: #a8b720;
+}
+.color-ghost{
+    color: #6e5896;
+}
+.color-steel{
+    color: #b9b7cf;
+}
+.color-fairy{
+    color: #f9aec7;
 }
